@@ -10,7 +10,7 @@ class Person {
 
 
     //<editor-fold desc="FIELDS">
-    String name;
+    String username;
     String password;
     Integer code;
     String city;
