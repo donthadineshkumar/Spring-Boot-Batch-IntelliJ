@@ -4,7 +4,12 @@ package sample;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Sample{
+public class Sample implements Ifc{
+
+    @Override
+    public String getMessage() {
+        return "Master";
+    }
 
     public static void main(String args[]){
 
