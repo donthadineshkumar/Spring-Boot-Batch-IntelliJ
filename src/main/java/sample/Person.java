@@ -14,8 +14,6 @@ class Person {
     String password;
     Integer code;
     String city;
-    //</editor-fold>
-
-
-
+    String name;
+    //</editor-fold> SS
 }
