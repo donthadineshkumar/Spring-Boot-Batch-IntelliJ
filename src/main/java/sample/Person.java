@@ -8,9 +8,8 @@ class Person {
     // TODO: 2/28/17
 
 
-
     //<editor-fold desc="FIELDS">
-    String username;
+                String username;  //
     String password;
     Integer code;
     String city;

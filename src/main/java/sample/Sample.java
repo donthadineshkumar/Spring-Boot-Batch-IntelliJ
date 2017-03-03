@@ -13,16 +13,16 @@ public class Sample implements Ifc{
         return "Master";
     }
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
-         System.out.println("Sample Boot");
+        System.out.println("Sample Boot");
 
-         System.out.println("Hello");
+        System.out.println("Hello");
 
-         //Person person = new Person("Hello");
+        //Person person = new Person("Hello");
 
 
-        StringJoiner joiner = new StringJoiner(":","{","}");
+        StringJoiner joiner = new StringJoiner(":", "{", "}");
 
         joiner.add("Dinesh").add("Dontha");
 
@@ -32,10 +32,9 @@ public class Sample implements Ifc{
 
     }
 
-    public static String printMsg(){
+    public static String printMsg() {
         return "Hello";
     }
-
 
 
 }
